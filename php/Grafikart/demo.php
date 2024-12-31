@@ -9,11 +9,11 @@ while ($entree != "fin") {
         break;
     } else{
     $notes[] = $entree;}
-    
+
 }
 
 foreach ($notes as $note){
     echo $note . "\n";
 }
-
+echo "Fin du programme\n";
 ?>
